@@ -1,5 +1,5 @@
 const int sensorPin = A0;
-float baselineTemp = 24.0;
+float baselineTemp = 23.0;
 
 void setup() {
   pinMode(2, OUTPUT);
