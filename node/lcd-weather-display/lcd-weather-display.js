@@ -76,10 +76,10 @@ board.on("ready", function() {
 						lcd.setCursor(0, numberRows-1).print(description); // Describe current weather
 						break;
 					case 1:
-						lcd.setCursor(0, numberRows-1).print("High of "+temperatureHigh+":deg:"+temperatureFormat); // Describe current weather
+						lcd.setCursor(0, numberRows-1).print("High of "+temperatureHigh+":deg:"+temperatureFormat); // Display high temperature
 						break;
 					case 2:
-						lcd.setCursor(0, numberRows-1).print("Low of "+temperatureLow+":deg:"+temperatureFormat); // Describe current weather
+						lcd.setCursor(0, numberRows-1).print("Low of "+temperatureLow+":deg:"+temperatureFormat); // Display low temperature
 						break;
 				}
 
