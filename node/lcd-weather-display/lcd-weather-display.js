@@ -30,8 +30,8 @@ board.on("ready", function() {
 		// LCD pin name  RS  EN  DB4 DB5 DB6 DB7
 		// Arduino pin # 12  11   5   4  3  2
 		pins: [ 12, 11, 5, 4, 3, 2 ],
-		rows: 2,
-		cols: 16
+		rows: numberRows,
+		cols: numberCols
 	});
 	
 	lcd.on("ready", function() {
