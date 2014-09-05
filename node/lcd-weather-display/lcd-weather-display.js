@@ -5,7 +5,7 @@
  * Fetch the latest weather data and present it on an LCD screen.
  */
 
-var five = require("../johnny-five/lib/johnny-five"),
+var five = require("johnny-five"),
     request = require("request"),
     board = new five.Board(),
     numberRows = 2,

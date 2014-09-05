@@ -1,0 +1,23 @@
+{
+  "name": "lcd-weather-display",
+  "version": "0.0.0",
+  "description": "Fetch the latest weather data and present it on an LCD screen.",
+  "main": "lcd-weather-display.js",
+  "scripts": {
+    "test": "node lcd-weather-display"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/toddlawton/arduino-nodebots/tree/master/node/lcd-weather-display"
+  },
+  "keywords": [
+    "node",
+    "arduino"
+  ],
+  "author": "@toddlawton",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "johnny-five": "~0.8.8",
+    "request": "~2.42.0"
+  }
+}
