@@ -11,7 +11,7 @@ var five = require("johnny-five"),
     numberRows = 2,
     numberCols = 16,
     currentCity = "Montreal",
-    countryCode = "QC",
+    countryCode = "CA",
     temperatureFormat = "C"; // "C" for Celsius, "F" for Fahrenheit
 
 
